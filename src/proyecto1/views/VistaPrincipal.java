@@ -55,43 +55,43 @@ public class VistaPrincipal extends javax.swing.JFrame {
 
         btnAgregar.setBackground(new java.awt.Color(210, 230, 255));
         btnAgregar.setFont(new java.awt.Font("Bahnschrift", 0, 12)); // NOI18N
-        btnAgregar.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "AGREGAR", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.BOTTOM, new java.awt.Font("Bahnschrift", 0, 12))); // NOI18N
+        btnAgregar.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "AGREGAR", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.ABOVE_BOTTOM, new java.awt.Font("Bahnschrift", 0, 12))); // NOI18N
         btnAgregar.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
         btnAgregar.addActionListener(this::btnAgregarActionPerformed);
 
         btnBuscar.setBackground(new java.awt.Color(210, 230, 255));
         btnBuscar.setFont(new java.awt.Font("Bahnschrift", 0, 12)); // NOI18N
-        btnBuscar.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "BUSCAR", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.BOTTOM, new java.awt.Font("Bahnschrift", 0, 12))); // NOI18N
+        btnBuscar.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "BUSCAR", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.ABOVE_BOTTOM, new java.awt.Font("Bahnschrift", 0, 12))); // NOI18N
         btnBuscar.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
         btnBuscar.addActionListener(this::btnBuscarActionPerformed);
 
         btnEliminar.setBackground(new java.awt.Color(210, 230, 255));
         btnEliminar.setFont(new java.awt.Font("Bahnschrift", 0, 12)); // NOI18N
-        btnEliminar.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "ELIMINAR", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.BOTTOM, new java.awt.Font("Bahnschrift", 0, 12))); // NOI18N
+        btnEliminar.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "ELIMINAR", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.ABOVE_BOTTOM, new java.awt.Font("Bahnschrift", 0, 12))); // NOI18N
         btnEliminar.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
         btnEliminar.addActionListener(this::btnEliminarActionPerformed);
 
         btnRegistrarV.setBackground(new java.awt.Color(210, 230, 255));
         btnRegistrarV.setFont(new java.awt.Font("Bahnschrift", 0, 12)); // NOI18N
-        btnRegistrarV.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "VENTA", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.BOTTOM, new java.awt.Font("Bahnschrift", 0, 12))); // NOI18N
+        btnRegistrarV.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "VENTA", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.ABOVE_BOTTOM, new java.awt.Font("Bahnschrift", 0, 12))); // NOI18N
         btnRegistrarV.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
         btnRegistrarV.addActionListener(this::btnRegistrarVActionPerformed);
 
         btnReportes.setBackground(new java.awt.Color(210, 230, 255));
         btnReportes.setFont(new java.awt.Font("Bahnschrift", 0, 12)); // NOI18N
-        btnReportes.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "REPORTE", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.BOTTOM, new java.awt.Font("Bahnschrift", 0, 12))); // NOI18N
+        btnReportes.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "REPORTES", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.ABOVE_BOTTOM, new java.awt.Font("Bahnschrift", 0, 12))); // NOI18N
         btnReportes.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
         btnReportes.addActionListener(this::btnReportesActionPerformed);
 
         btnDatos.setBackground(new java.awt.Color(210, 230, 255));
         btnDatos.setFont(new java.awt.Font("Bahnschrift", 0, 12)); // NOI18N
-        btnDatos.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "DATOS", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.BOTTOM, new java.awt.Font("Bahnschrift", 0, 12))); // NOI18N
+        btnDatos.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "DATOS", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.ABOVE_BOTTOM, new java.awt.Font("Bahnschrift", 0, 12))); // NOI18N
         btnDatos.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
         btnDatos.addActionListener(this::btnDatosActionPerformed);
 
         btnSalir.setBackground(new java.awt.Color(210, 230, 255));
         btnSalir.setFont(new java.awt.Font("Bahnschrift", 0, 12)); // NOI18N
-        btnSalir.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "SALIR", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.BOTTOM, new java.awt.Font("Bahnschrift", 0, 12))); // NOI18N
+        btnSalir.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "SALIR", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.ABOVE_BOTTOM, new java.awt.Font("Bahnschrift", 0, 12))); // NOI18N
         btnSalir.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
         btnSalir.addActionListener(this::btnSalirActionPerformed);
 
@@ -155,7 +155,7 @@ public class VistaPrincipal extends javax.swing.JFrame {
 
     private void btnAgregarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAgregarActionPerformed
        vAgregar.setVisible(true);
-       this.setVisible(false);
+       //this.setVisible(false);
     }//GEN-LAST:event_btnAgregarActionPerformed
 
     private void btnBuscarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnBuscarActionPerformed
