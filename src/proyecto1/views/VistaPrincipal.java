@@ -13,6 +13,9 @@ public class VistaPrincipal extends javax.swing.JFrame {
     private static final java.util.logging.Logger logger = java.util.logging.Logger.getLogger(VistaPrincipal.class.getName());
 
     VistaAgregar vAgregar = new VistaAgregar();
+    VistaBuscar vBuscar = new VistaBuscar();
+    VistaEliminar vEliminar = new VistaEliminar();
+    VistaVenta vVenta = new VistaVenta();
     
     /**
      * Creates new form VistaPrincipal
@@ -156,15 +159,18 @@ public class VistaPrincipal extends javax.swing.JFrame {
     }//GEN-LAST:event_btnAgregarActionPerformed
 
     private void btnBuscarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnBuscarActionPerformed
-        // TODO add your handling code here:
+        vBuscar.setVisible(true);
+       this.setVisible(false);
     }//GEN-LAST:event_btnBuscarActionPerformed
 
     private void btnEliminarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnEliminarActionPerformed
-        // TODO add your handling code here:
+        vEliminar.setVisible(true);
+        this.setVisible(false);
     }//GEN-LAST:event_btnEliminarActionPerformed
 
     private void btnRegistrarVActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRegistrarVActionPerformed
-        // TODO add your handling code here:
+        vVenta.setVisible(true);
+        this.setVisible(false);
     }//GEN-LAST:event_btnRegistrarVActionPerformed
 
     private void btnReportesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnReportesActionPerformed
